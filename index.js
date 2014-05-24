@@ -1,3 +1,5 @@
+"use strict";
+
 var fs = require('fs');
 var path = require('path');
 var deepEqual = require('deep-equal');
@@ -70,11 +72,11 @@ function resetValuesToBools(obj) {
     if (value instanceof Object) {
       return resetValuesToBools(value);
     } else {
-      return obj[key] = obj[key] && obj[key].length ? true : false;
+      obj[key] = obj[key] && obj[key].length ? true : false;
     }
   });
   return obj;
-}
+};
 
 /**
  * Require translation json synchronously, concat according to supported languages
