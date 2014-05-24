@@ -1,0 +1,17 @@
+{
+ "views/ui/1": {
+   "label_1": "label eins",
+   "label_2": "label zwei",
+   "label_3": "label drei",
+   "label_4": "label vier"
+ },
+ "views/ui/2": {
+   "label_1": "label eins",
+   "label_2": "label zwei",
+   "label_3": "label drei"
+ },
+ "views/ui/3": {
+   "label_1": "label eins",
+   "label_2": "label zwei"
+ }
+}
