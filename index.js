@@ -38,7 +38,7 @@ function hasEveryLanguage(obj, supported) {
   var keys = Object.keys(obj);
   return keys.length === supported.length
     && supported.every(function(lang) {
-      return ~supported.indexOf(lang)
+      return isIn(supported, lang)
     })
     ? true
     : throwError('Missing supported language, comparing:\n Given: ' + JSON.stringify(keys, null, 2) + '\n Supported: ' +JSON.stringify(supported, null, 2));
