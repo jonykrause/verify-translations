@@ -92,12 +92,10 @@ function concatJSON(dir, supported) {
   return obj;
 };
 
-// In string or array helper
 function isIn(container, value) {
   return ~container.indexOf(value);
 };
 
-// Error message helper
 function throwError(message) {
   throw new Error(message);
 };

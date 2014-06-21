@@ -1,7 +1,7 @@
 {
-  "name": "verify-translations-integrity",
+  "name": "verify-translations",
   "version": "0.0.1",
-  "description": "",
+  "description": "Verifies translations integrity given a path to JSON translation files and an array of supported languages",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -14,5 +14,8 @@
   "devDependencies": {
     "grunt": "^0.4.5",
     "tape": "^2.13.1"
+  },
+  "dependencies": {
+    "deep-equal": "^0.2.1"
   }
 }
