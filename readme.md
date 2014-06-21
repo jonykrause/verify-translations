@@ -8,13 +8,14 @@ Verifies translations integrity given a path to JSON translation files and an ar
   var verifyTranslations = require('verify-translations');
 
   var hasTranslationsIntegrity = verifyTranslationsIntegrity(DIR, ['de', 'en']);
+```
 
 
 # API
 
 ``` js
   var verifyTranslations = require('verify-translations');
-
+```
 ## verifyTranslations(pathToTranslations, [supportedTranslations])
 
 Verifies translations integrity given a path to JSON translation files and an array of supported languages
