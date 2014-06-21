@@ -16,7 +16,7 @@ Verifies translations integrity given a path to JSON translation files and an ar
 ``` js
   var verifyTranslations = require('verify-translations');
 ```
-## verifyTranslations(pathToTranslations, [supportedTranslations])
+### verifyTranslations(pathToTranslations, [supportedTranslations])
 
 Verifies translations integrity given a path to JSON translation files and an array of supported languages
 Returns Boolean by comparing JSON object key structure.
