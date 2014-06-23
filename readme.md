@@ -1,4 +1,4 @@
-Verifies translations integrity given a path to JSON translation files and an array of supported languages
+Verifies translations integrity given a path to JSON translation files and an array of supported languages (JSON file names that should be supported)
 
 # Example
 
@@ -18,7 +18,7 @@ Verifies translations integrity given a path to JSON translation files and an ar
 ```
 ### verifyTranslations(pathToTranslations, [supportedTranslations])
 
-Verifies translations integrity given a path to JSON translation files and an array of supported languages
+Verifies translations integrity given a path to JSON translation files and an array of supported languages (JSON file names that should be supported)
 Returns Boolean by comparing JSON object key structure.
 
 

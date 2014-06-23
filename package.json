@@ -2,6 +2,13 @@
   "name": "verify-translations",
   "version": "0.0.1",
   "description": "Verifies translations integrity given a path to JSON translation files and an array of supported languages",
+  "keywords": [
+    "json",
+    "translations",
+    "equal keys",
+    "integrity"
+  ],
+  "repository": "git://github.com/jonykrause/verify-translations",
   "main": "index.js",
   "directories": {
     "test": "test"
