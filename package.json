@@ -1,6 +1,6 @@
 {
   "name": "verify-translations",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Verifies translations integrity given a path to JSON translation files and an array of supported languages",
   "keywords": [
     "json",
